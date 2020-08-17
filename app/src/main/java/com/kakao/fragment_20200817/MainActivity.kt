@@ -3,6 +3,7 @@ package com.kakao.fragment_20200817
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
+//STEP1
 class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

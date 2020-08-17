@@ -6,6 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
+    <!--    //STEP2-->
     <TextView
         android:id="@+id/contentTxt"
         android:layout_width="wrap_content"

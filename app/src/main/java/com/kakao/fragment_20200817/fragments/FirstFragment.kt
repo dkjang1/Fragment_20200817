@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.fragment_first.*
 
 class FirstFragment : Fragment() {
 
+//STEP3
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -19,6 +20,7 @@ class FirstFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
 
+//STEP4
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
