@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.kakao.fragment_20200817.R
 import kotlinx.android.synthetic.main.fragment_second.*
+import android.widget.Toast as Toast
 
 class SecondFragment : Fragment() {
 
@@ -23,8 +24,10 @@ class SecondFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         toastBtn.setOnClickListener{
-
+//            Toast.makeText(activity,"토스트 출력",Toast.LENGTH_SHORT).show()
+            Toast.makeText(context,"토스트 출력",Toast.LENGTH_SHORT).show()
         }
+
 
     }
 }
